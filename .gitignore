@@ -6,12 +6,20 @@ npm-debug.log
 __pycache__/
 *.pyc
 
-# Capacitor
+# Capacitor / Android
 android/build/
+android/app/build/
 android/.gradle/
 android/.idea/
+android/.cxx/
+android/local.properties
+android/*.iml
+
+# iOS
 ios/Pods/
 ios/build/
+ios/App/build/
+ios/App/DerivedData/
 
 # OS
 .DS_Store
@@ -21,5 +29,17 @@ datasets/
 uploads/
 models/
 
+# Media safety
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.wav
+
 # Env
 .env
+
+# Logs
+*.log
+*.tmp
