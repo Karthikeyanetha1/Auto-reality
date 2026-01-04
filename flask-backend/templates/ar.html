@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AutoFix AR Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span class="logo">🔧 AutoFix</span>
+    <span class="mode">AR Guide</span>
+  </div>
+
+  <!-- CAMERA -->
+  <div class="camera-container">
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <!-- FLOATING INSTRUCTION CARD -->
+  <div class="instruction-card" id="instructions">
+    <h3>Align camera with device</h3>
+    <p>Hold steady for detection</p>
+    <button onclick="nextStep()">Next</button>
+  </div>
+
+  <script src="/static/ar.js"></script>
+</body>
+</html>

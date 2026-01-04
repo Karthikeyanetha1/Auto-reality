@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AutoFix Reality</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>AutoFix Reality</h1>
+  <p>Upload photo / video / audio to diagnose any device</p>
+
+  <form id="diagnoseForm">
+    <input type="file" id="file" required>
+    <select id="type">
+      <option value="image">Image</option>
+      <option value="video">Video</option>
+      <option value="audio">Audio</option>
+    </select>
+    <button type="submit">Analyze</button>
+  </form>
+
+  <pre id="output"></pre>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoFix AR Guide</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <!-- CAMERA -->
+  <div id="camera-container"></div>
+
+  <!-- AR CANVAS -->
+  <canvas id="overlay"></canvas>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span class="app-name">AutoFix AR</span>
+    <span class="status live">LIVE</span>
+  </div>
+
+  <!-- HUD (Scanning status) -->
+  <div id="hud">
+    <div id="hud-instruction" class="pulse">
+      Scanning…
+    </div>
+  </div>
+
+  <!-- ISSUE CARD -->
+  <div class="issue-card hidden" id="issue-card">
+    <h3 id="issue-title">Issue Detected</h3>
+    <p id="issue-text">Align camera with device</p>
+  </div>
+
+  <script type="module" src="/static/ar.js"></script>
+</body>
+</html>

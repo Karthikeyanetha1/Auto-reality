@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Capacitor
+android/build/
+android/.gradle/
+android/.idea/
+ios/Pods/
+ios/build/
+
+# OS
+.DS_Store
+
+# Large files
+datasets/
+uploads/
+models/
+
+# Env
+.env

@@ -1,0 +1,13 @@
+timestamp,prediction,confidence,distance,audio_file
+2026-01-01T15:09:05,normal,0.638,0.567,__live_input.wav
+2026-01-01T15:09:28,normal,0.666,0.502,__live_input.wav
+2026-01-01T15:09:37,normal,0.673,0.485,__live_input.wav
+2026-01-01T15:09:52,normal,0.576,0.736,__live_input.wav
+2026-01-01T15:10:10,bearing_issue,0.635,0.574,__live_input.wav
+2026-01-01T15:22:51,normal,0.636,0.572,WARNING,__live_input.wav
+2026-01-01T15:23:06,normal,0.655,0.527,WARNING,__live_input.wav
+2026-01-01T15:23:21,normal,0.601,0.663,WARNING,__live_input.wav
+2026-01-01T15:23:39,normal,0.674,0.484,WARNING,__live_input.wav
+2026-01-01T15:23:57,normal,0.617,0.621,WARNING,__live_input.wav
+2026-01-01T15:25:59,normal,0.652,0.533,NORMAL,__live_input.wav
+2026-01-01T15:26:14,normal,0.663,0.509,NORMAL,__live_input.wav

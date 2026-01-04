@@ -1,0 +1,6 @@
+{
+  "appId": "com.autofix.reality",
+  "appName": "AutoFixAR",
+  "webDir": "capacitor/www",
+  "bundledWebRuntime": false
+}
