@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AutoFixAR</string>
+    <string name="title_activity_main">AutoFixAR</string>
+    <string name="package_name">com.autofix.reality</string>
+    <string name="custom_url_scheme">com.autofix.reality</string>
+</resources>
